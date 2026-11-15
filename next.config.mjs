@@ -15,7 +15,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true
   },
-  output: 'export',
   output: 'standalone',
   serverExternalPackages: ['langium', '@mermaid-js/parser'],
   webpack(config, { isServer }) {
